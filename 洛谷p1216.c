@@ -22,7 +22,7 @@ int main()
         for(j = 0;j < i+1;j++)
         {
             if(j != 0 && j != i)
-            {
+            {						//×¢ÊÍ 
                 a[i][j] += fmax(a[i-1][j-1],a[i-1][j]);
             }
             max = fmax(max,a[i][j]);
